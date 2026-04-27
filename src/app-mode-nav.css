@@ -1,0 +1,44 @@
+.app-mode-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  background: rgba(15, 23, 42, 0.95);
+  color: #e2e8f0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+  font-family: system-ui, sans-serif;
+}
+
+.app-mode-nav a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+.app-mode-nav a.is-active,
+.app-mode-nav a:hover {
+  text-decoration: underline;
+  color: #bae6fd;
+}
+
+.app-mode-nav__label {
+  color: #94a3b8;
+  margin-right: 0.25rem;
+}
+
+.app-mode-nav__hint {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.app-mode-nav__hint a {
+  color: #7dd3fc;
+}
+
+.app-mode-nav__hint code {
+  font-size: 0.75rem;
+  background: rgba(30, 41, 59, 0.8);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
